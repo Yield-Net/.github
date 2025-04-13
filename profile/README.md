@@ -19,18 +19,20 @@ Our system generates personalised DeFi investment strategies using live data and
 
 ### Strategy Generation
 1. **Filter and Rank Protocols**
+
    - Filter DeFi Llama data to include only:
      - Protocols on Ethereum
      - Status: Active
      - TVL > $1M
-     - Categories: Lending, Staking
+     - Categories: Lending, Staking (Only Available)
      - Matches user’s preferred DeFi activities (if specified)
+
    - Rank protocols based on:
      - Total Value Locked (TVL) — proxy for trust and liquidity
      - Compatibility with user's experience level and risk tolerance
      - Alignment with investment goals (e.g. stable protocols for passive income)
      - Historical APY trends (where available)
-   - Return top 20 ranked protocols to inform AI prompt
+   - **Return top 20 ranked protocols to inform AI prompt**
 
 2. Construct a prompt and send to Gemini AI (`gemini-1.5-pro-latest`).
 
