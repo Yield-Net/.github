@@ -1,8 +1,8 @@
 # Yield Net
+An Ai DeFi assistant that helps users navigate decentralised finance through personalised strategy recommendations and investments controlled by a personalised Ai-Assistant.
+
 
 ![Yield Net Animation](../yield-net-g.gif)
-
-An Ai DeFi assistant that helps users navigate decentralised finance through personalised strategy recommendations and investments controlled by a personalised Ai-Assistant.
 
 ---
 
