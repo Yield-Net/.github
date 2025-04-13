@@ -1,4 +1,4 @@
-# 💡 DeFi Advisor – AI-Powered Crypto Investment Platform  
+# Yield Net
 
 ![Yield Net Animation](../yield-net-g.gif)
 
