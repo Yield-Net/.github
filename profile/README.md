@@ -6,6 +6,13 @@ An Ai DeFi assistant that helps users navigate decentralised finance through per
 
 ---
 
+### 📂 Links
+
+<a href="https://github.com/Yield-Net/full-stack" style="font-weight: bold; color: blue; font-size: 1.2em;">Project Repo</a>
+
+<a href="..." style="font-weight: bold; color: blue; font-size: 1.2em;">Video</a>
+
+
 ## 🚀 Features
 
 -  **Web3 Wallet Integration** – Connect via MetaMask for secure authentication and transaction execution
@@ -182,51 +189,6 @@ NEXT_PUBLIC_SUPABASE_KEY=
 - 🧾 **Transaction Transparency** – view full on-chain data before confirming  
 - 🔒 **Row-level security** – enforced in Supabase for multi-user data safety  
 - 📡 **Secure connections** – Web3 communications via encrypted RPC providers  
-
----
-
-## 🧪 API Endpoints
-
-### Authentication
-```http
-POST /api/login
-{ wallet_address: string }
-→ { user_id, is_new_user }
-```
-
-### Profile
-```http
-POST /api/user-profile
-{ profile_data }
-→ { success, user_id }
-```
-
-### Strategy Generation
-```http
-POST /api/generate-strategy
-{ profile_data }
-→ [strategy_list]
-```
-
-### Dashboard
-```http
-GET /api/dashboard?user_id=
-→ { profile, strategies, portfolio }
-```
-
-### Execution
-```http
-POST /api/strategy/execute
-{ user_address, idx }
-→ { transaction_data }
-```
-
-### AI Assistant
-```http
-POST /ai-agent/message
-{ user_profile, user_message }
-→ { ai_response }
-```
 
 ---
 
