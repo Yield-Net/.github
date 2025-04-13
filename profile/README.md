@@ -10,7 +10,7 @@ An Ai DeFi assistant that helps users navigate decentralised finance through per
 
 <a href="https://github.com/Yield-Net/full-stack" style="font-weight: bold; color: blue; font-size: 1.2em;">Project Repo</a>
 
-<a href="..." style="font-weight: bold; color: blue; font-size: 1.2em;">Video</a>
+<a href="https://drive.google.com/drive/u/1/folders/1BMdsE2lFMvXi3rIoNrXnfcKKZ6qUl4jl" style="font-weight: bold; color: blue; font-size: 1.2em;">Video</a>
 
 
 ## 🚀 Features
